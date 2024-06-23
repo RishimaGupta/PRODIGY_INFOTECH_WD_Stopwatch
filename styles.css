@@ -1,0 +1,55 @@
+body {
+    background-image: url(bg1.jpg);
+    background-size:cover;
+    color: rgb(67,41,42);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+#display {
+    font-size: 5em;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    margin: 7px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: rgb(132,77,49);
+}
+
+button:hover {
+    background-color: rgb(223,167,106);
+}
+
+#laps {
+    list-style: none;
+}
+
+#laps li {
+    font-size: 1.2em;
+    background:rgb(236,188,112);
+    padding: 6px;
+    margin: 6px;
+    border-radius: 50px;
+    color: rgb(132,77,49);
+}
